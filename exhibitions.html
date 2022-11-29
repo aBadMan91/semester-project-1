@@ -6,14 +6,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Check out our exhibitions" />
     <title>Community Science Museum | Exhibitions</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/b318972c4d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header class="header-nav"></header>
+    <header class="header-nav">
+      <div class="header-logo-name-list">
+        <div class="header-logo">
+          <img src="/images/MuseumLogo.svg" alt="Museum Logo" />
+        </div>
+        <div class="header-name">
+          <p>Community</p>
+          <p>Science Museum</p>
+        </div>
+        <label for="hamburger-menu" title="Hamburger menu"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav class="nav-list">
+          <ul>
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li><a href="/explore.html">Explore</a></li>
+            <li><a href="/exhibitions.html">Exhibition</a></li>
+            <li><a href="/visit.html">Visit</a></li>
+            <li><a href="/getinvolved.html">Get Involved</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main class="container">
       <section class="top-content_exhibitions">
         <h1>Our exhibitions</h1>
         <div class="exhibition-list">
-          <img src="" alt="Different moon phases" />
+          <img src="/images/celso-405219.jpg" alt="Different moon phases" />
           <h2>Cosmology</h2>
           <p>
             Are you looking to get involved with our team of researchers and
@@ -24,7 +53,10 @@
           </p>
         </div>
         <div class="exhibition-list">
-          <img src="" alt="Display of mammoth skeleton" />
+          <img
+            src="/images/mammoth-1257288_1920.jpg"
+            alt="Display of mammoth skeleton"
+          />
           <h2>Evolution</h2>
           <p>
             For centuries, philosophers and scientists have wrestled with the
@@ -38,7 +70,10 @@
           </p>
         </div>
         <div class="exhibition-list">
-          <img src="" alt="Half body human biology mannequin" />
+          <img
+            src="/images/samuel-zeller-113381.jpg"
+            alt="Half body human biology mannequin"
+          />
           <h2>Biology and Medicine</h2>
           <p>
             From micro-organisms to the human body, major breakthroughs in
@@ -52,7 +87,10 @@
           </p>
         </div>
         <div class="exhibition-list">
-          <img src="" alt="Person sitting by a large machine" />
+          <img
+            src="/images/scientific-2040795_1280.jpg"
+            alt="Person sitting by a large machine"
+          />
           <h2>Robotics and AI</h2>
           <p>
             The information revolution is here and robotics and artificial
@@ -62,7 +100,10 @@
           </p>
         </div>
         <div class="exhibition-list">
-          <img src="" alt="Grass in sunlight" />
+          <img
+            src="/images/scott-webb-102825-grass.jpg"
+            alt="Grass in sunlight"
+          />
           <h2>Ecology</h2>
           <p>
             As we learn more and more of the impact humans are having on the
@@ -76,6 +117,29 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer_hours-location">
+        <div>
+          <p>Opening hours</p>
+        </div>
+        <div class="footer_hours-top">
+          <p>Monday: Closed</p>
+          <p>Tuesday: 10:00 – 16:00</p>
+          <p>Wednesday: 10:00 – 16:00</p>
+        </div>
+        <div class="footer_hours-bottom">
+          <p>Thursday: 10:00 – 16:00</p>
+          <p>Friday: 10:00 – 19:00</p>
+          <p>Saturday: 9:00 – 16:00</p>
+          <p>Sunday: 9:00 – 13:00</p>
+        </div>
+        <div>
+          <p>Location</p>
+        </div>
+        <div>
+          <p>The museum is located at Søndre Tollbodgate 11B, 9008 Tromsø.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

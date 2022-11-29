@@ -6,13 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Explore and learn about us" />
     <title>Community Science Museum | Explore</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/b318972c4d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header class="header-nav"></header>
+    <header class="header-nav">
+      <div class="header-logo-name-list">
+        <div class="header-logo">
+          <img src="/images/MuseumLogo.svg" alt="Museum Logo" />
+        </div>
+        <div class="header-name">
+          <p>Community</p>
+          <p>Science Museum</p>
+        </div>
+        <label for="hamburger-menu" title="Hamburger menu"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav class="nav-list">
+          <ul>
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li><a href="/explore.html">Explore</a></li>
+            <li><a href="/exhibitions.html">Exhibition</a></li>
+            <li><a href="/visit.html">Visit</a></li>
+            <li><a href="/getinvolved.html">Get Involved</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main class="container">
       <section class="top-content_explore">
         <div>
-          <img src="" alt="person looking into microscope" />
+          <img
+            src="/images/people-219985_1280.jpg"
+            alt="person looking into microscope"
+          />
           <h1>Researchers</h1>
           <p>
             Are you looking to get involved with our team of researchers and
@@ -58,11 +90,17 @@
             Each holiday we pick a new theme to explore. To find out more about
             the holiday club and how you can join, send us a message.
           </p>
-          <img src="" alt="Child sitting on books and reading a book" />
+          <img
+            src="/images/reading-2762010_1280.jpg"
+            alt="Child sitting on books and reading a book"
+          />
         </div>
         <div class="teachers">
           <h3>For teachers</h3>
-          <img src="" alt="illustration of teacher waving at you the reader" />
+          <img
+            src="/images/teacher-2816112.jpg"
+            alt="illustration of teacher waving at you the reader"
+          />
           <p>
             As a community-driven museum, we want to work with schools to create
             places of learning and exploring. Our team are on hand to give your
@@ -75,6 +113,29 @@
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer_hours-location">
+        <div>
+          <p>Opening hours</p>
+        </div>
+        <div class="footer_hours-top">
+          <p>Monday: Closed</p>
+          <p>Tuesday: 10:00 – 16:00</p>
+          <p>Wednesday: 10:00 – 16:00</p>
+        </div>
+        <div class="footer_hours-bottom">
+          <p>Thursday: 10:00 – 16:00</p>
+          <p>Friday: 10:00 – 19:00</p>
+          <p>Saturday: 9:00 – 16:00</p>
+          <p>Sunday: 9:00 – 13:00</p>
+        </div>
+        <div>
+          <p>Location</p>
+        </div>
+        <div>
+          <p>The museum is located at Søndre Tollbodgate 11B, 9008 Tromsø.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

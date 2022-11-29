@@ -6,13 +6,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="Find out where we are located" />
     <title>Community Science Museum | Visit</title>
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/media.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/b318972c4d.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <header class="header-nav"></header>
+    <header class="header-nav">
+      <div class="header-logo-name-list">
+        <div class="header-logo">
+          <img src="/images/MuseumLogo.svg" alt="Museum Logo" />
+        </div>
+        <div class="header-name">
+          <p>Community</p>
+          <p>Science Museum</p>
+        </div>
+        <label for="hamburger-menu" title="Hamburger menu"
+          ><i class="fas fa-bars"></i
+        ></label>
+        <input type="checkbox" id="hamburger-menu" />
+        <nav class="nav-list">
+          <ul>
+            <li><a href="/index.html" class="active">Home</a></li>
+            <li><a href="/explore.html">Explore</a></li>
+            <li><a href="/exhibitions.html">Exhibition</a></li>
+            <li><a href="/visit.html">Visit</a></li>
+            <li><a href="/getinvolved.html">Get Involved</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
     <main class="container">
       <section class="top-content_visit">
         <div>
-          <img src="" alt="Image of a museum with colorful letters" />
+          <img
+            src="/images/scott-webb-102825.jpg"
+            alt="Image of a museum with colorful letters"
+          />
         </div>
       </section>
       <section class="visit">
@@ -57,10 +89,36 @@
           <p>Friday: 10:00 – 19:00</p>
           <p>Saturday: 9:00 – 16:00</p>
           <p>Sunday: 9:00 – 13:00</p>
-          <img src="" alt="Child wearing VR headset" />
+          <img
+            src="/images/samuel-zeller-158996.jpg"
+            alt="Child wearing VR headset"
+          />
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer_hours-location">
+        <div>
+          <p>Opening hours</p>
+        </div>
+        <div class="footer_hours-top">
+          <p>Monday: Closed</p>
+          <p>Tuesday: 10:00 – 16:00</p>
+          <p>Wednesday: 10:00 – 16:00</p>
+        </div>
+        <div class="footer_hours-bottom">
+          <p>Thursday: 10:00 – 16:00</p>
+          <p>Friday: 10:00 – 19:00</p>
+          <p>Saturday: 9:00 – 16:00</p>
+          <p>Sunday: 9:00 – 13:00</p>
+        </div>
+        <div>
+          <p>Location</p>
+        </div>
+        <div>
+          <p>The museum is located at Søndre Tollbodgate 11B, 9008 Tromsø.</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
