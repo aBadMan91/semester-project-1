@@ -5,22 +5,35 @@
   .container {
     max-width: 600px;
   }
+}
 
+@media (min-width: 800px) {
   nav {
     display: block;
-    position: static;
+  }
+
+  .nav-list {
+    position: fixed;
+    right: 0;
   }
 
   header label {
     display: none;
   }
 
-  .nav-list {
-    float: right;
+  .header-logo {
+    width: 25%;
+    height: auto;
+    max-width: 186px;
+    max-height: 200px;
   }
-}
 
-@media (min-width: 800px) {
+  .header-name {
+    font-size: 2em;
+    line-height: 1px;
+    padding-left: 5px;
+  }
+
   .container {
     max-width: 800px;
   }
@@ -35,7 +48,19 @@
     max-width: 1184px;
   }
 
+  h1 {
+    font-size: 2em;
+  }
+
+  h2 {
+    font-size: 1.8em;
+  }
+
+  h3 {
+    font-size: 1.6em;
+  }
+
   p {
-    font-size: 1.7em;
+    font-size: 1.5em;
   }
 }
