@@ -11,6 +11,22 @@ body {
     "footer footer";
 }
 
+h1 {
+  font-size: 1.3em;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+h3 {
+  font-size: 1.1em;
+}
+
+p {
+  font-size: 1em;
+}
+
 .container {
   margin: auto;
   padding-top: 1em;
@@ -113,37 +129,38 @@ img {
   margin: 0;
 }
 
-.top-content_home h1 {
-  background-color: rgba(78, 62, 127, 0.8);
-  color: #fff;
-  position: absolute;
-  top: 25%;
-  left: 25%;
-  width: 50%;
-  height: auto;
-  text-align: center;
-  padding-top: 4px;
+.top-content_home img {
+  border-radius: 10px;
 }
 
-.top-content_home p {
+.top-content_home-text {
   background-color: rgba(78, 62, 127, 0.8);
   color: #fff;
   position: absolute;
-  top: 30%;
-  left: 25%;
-  width: 50%;
+  top: 10%;
+  left: 10%;
+  width: 80%;
   text-align: center;
   padding-bottom: 30px;
+  padding-top: 10px;
+  border-radius: 10px;
 }
 
-.top-content_home button {
+.top-content_home-text h1,
+.top-content_home-text p {
+  padding: 0;
+  margin: 0;
+}
+
+.top-content_home-text button {
   background-color: rgba(78, 62, 127, 0.8);
   color: #fff;
   position: absolute;
-  top: 55%;
-  left: 45%;
-  width: 10%;
+  top: 75%;
+  left: 35%;
+  width: 30%;
   text-align: center;
+  border-radius: 10px;
 }
 
 .news h2 {
@@ -156,7 +173,6 @@ img {
 
 .news-specific {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   background-color: #4e3e7f;
   padding: 5px;
   margin-top: 15px;
@@ -165,7 +181,6 @@ img {
 }
 
 .news-text {
-  font-size: 0.8em;
   margin-left: 0.5em;
   margin-right: 0.5em;
   color: #fff;
@@ -186,29 +201,20 @@ img {
   margin: 0;
 }
 
-.top-content_explore-text {
-  display: flex;
-  background-color: rgba(78, 62, 127, 0.8);
-  color: #fff;
-  position: absolute;
-  text-align: center;
-  bottom: 4px;
-  right: 0;
-  width: 40%;
-  height: auto;
-  flex-direction: column;
-  padding: 5px;
+.top-content_explore img {
+  border-radius: 10px;
 }
 
 .top-content_explore-text h1 {
-  margin-top: 0;
-  margin-bottom: 0;
+  background-color: #4e3e7f;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 0.1em;
 }
 
-.top-content_explore-text p {
-  text-align: left;
-  margin-top: 5px;
-  margin-bottom: 0;
+.top-content_explore-text {
+  border-radius: 10px;
 }
 
 .explore h2 {
@@ -224,7 +230,7 @@ img {
   color: #fff;
   border-radius: 10px;
   text-align: center;
-  width: 10%;
+  width: 20%;
   padding: 10px;
   transform: rotate(-10deg);
   float: left;
@@ -233,7 +239,6 @@ img {
 .kids {
   background-color: #4e3e7f;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   color: #fff;
   padding: 5px;
   margin-top: 15px;
@@ -242,8 +247,12 @@ img {
   float: right;
 }
 
-.kids-text {
-  margin: 1em;
+.kids img {
+  border-radius: 10px;
+}
+
+.kids-text p {
+  margin: 10px;
 }
 
 .teachers-top h3 {
@@ -251,8 +260,8 @@ img {
   color: #fff;
   border-radius: 10px;
   text-align: center;
-  width: 10%;
-  padding: 10px;
+  width: 30%;
+  padding: 10px 0px;
   transform: rotate(10deg);
   float: right;
 }
@@ -260,7 +269,6 @@ img {
 .teachers {
   background-color: #4e3e7f;
   display: grid;
-  grid-template-columns: 1fr 1fr;
   color: #fff;
   padding: 5px;
   margin-top: 15px;
@@ -271,10 +279,11 @@ img {
 
 .teachers img {
   grid-area: 1;
+  border-radius: 10px;
 }
 
-.teachers-text {
-  margin: 1em;
+.teachers-text p {
+  margin: 10px;
 }
 
 /* Exhibitions */
@@ -294,15 +303,22 @@ img {
   margin: 0;
 }
 
+.exhibition-image-text img {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
 .exhibition-image-text h2 {
   background-color: rgba(78, 62, 127, 0.8);
   color: #fff;
   position: absolute;
-  bottom: -16px;
+  bottom: -12px;
   width: 100%;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .exhibition-list h2 {
@@ -333,9 +349,12 @@ img {
 
 .hours-text_image {
   display: grid;
-  grid-template-columns: 1fr 1fr;
   text-align: center;
   align-items: center;
+}
+
+.hours-text_image img {
+  border-radius: 10px;
 }
 
 /* Get Involved */
@@ -345,14 +364,20 @@ img {
   margin: 0;
 }
 
+.top-content_get-involved img {
+  border-radius: 10px;
+}
+
 .get-involved_text h1 {
   background-color: rgba(78, 62, 127, 0.8);
   color: #fff;
   text-align: center;
   position: absolute;
   width: 100%;
-  bottom: -23px;
+  bottom: -14px;
   left: 0;
   padding-top: 5px;
   padding-bottom: 5px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
