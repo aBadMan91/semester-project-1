@@ -24,8 +24,6 @@
   }
 
   .top-content_home-text {
-    top: 25%;
-    left: 12%;
     width: 75%;
     padding-bottom: 40px;
     border-radius: 10px;
@@ -167,11 +165,7 @@
   }
 
   .top-content_home-text {
-    top: 40%;
-    left: 25%;
     width: 50%;
-    padding-bottom: 40px;
-    border-radius: 10px;
   }
 
   .top-content_home-text button {

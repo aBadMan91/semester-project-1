@@ -147,13 +147,14 @@ img {
   background-color: rgba(78, 62, 127, 0.8);
   color: #fff;
   position: absolute;
-  top: 10%;
-  left: 10%;
+  top: 50%;
+  left: 50%;
   width: 80%;
   text-align: center;
   padding-bottom: 30px;
   padding-top: 10px;
   border-radius: 10px;
+  transform: translate(-50%, -50%);
 }
 
 .top-content_home-text h1,
@@ -166,7 +167,7 @@ img {
   background-color: rgba(78, 62, 127, 0.8);
   color: #fff;
   position: absolute;
-  top: 75%;
+  top: 78%;
   left: 35%;
   width: 30%;
   text-align: center;
@@ -274,6 +275,7 @@ img {
   padding: 10px 0px;
   transform: rotate(10deg);
   float: right;
+  margin-right: 2px;
 }
 
 .teachers {
@@ -339,7 +341,8 @@ img {
 
 /* Visit */
 
-.top-content_visit {
+.top-content_visit img {
+  border-radius: 10px;
 }
 
 .visit h2 {
