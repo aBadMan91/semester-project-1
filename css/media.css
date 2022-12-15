@@ -19,25 +19,19 @@
   }
 
   .burger-menu {
-    right: 50px;
     top: 50px;
   }
 
   .top-content_home-text {
     width: 75%;
     padding-bottom: 40px;
-    border-radius: 10px;
   }
 
   .top-content_home-text button {
     top: 75%;
-    left: 35%;
-    width: 30%;
-    border-radius: 10px;
   }
 
   .news-specific {
-    display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
@@ -64,7 +58,6 @@
 
   .kids-top h3 {
     width: 15%;
-    padding: 10px;
   }
 
   .kids {
@@ -137,7 +130,6 @@
   }
 
   .header-name {
-    font-size: 2em;
     line-height: 1px;
     padding-left: 5px;
   }
@@ -148,6 +140,10 @@
 
   .top-content_explore-text {
     width: 45%;
+  }
+
+  .exhibition-image-text_top h2 {
+    bottom: -20px;
   }
 
   .exhibition-image-text h2 {
