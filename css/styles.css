@@ -228,12 +228,21 @@ img {
   border-radius: 10px;
 }
 
+.top-content_explore-text p {
+  margin: 5px;
+  text-align: left;
+}
+
 .explore h2 {
   background-color: #4e3e7f;
   color: #fff;
   text-align: center;
   padding: 0.2em;
   border-radius: 10px;
+}
+
+.explore p {
+  margin: 5px;
 }
 
 .kids-top h3 {
@@ -361,6 +370,10 @@ img {
   color: #fff;
 }
 
+.exhibition-list {
+  margin: 5px;
+}
+
 /* Visit */
 
 .top-content_visit img {
@@ -415,4 +428,8 @@ img {
   padding-bottom: 5px;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
+}
+
+.get-involved_content {
+  margin: 5px;
 }
