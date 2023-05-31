@@ -30,7 +30,7 @@ Link to my Museum website.
 - Clone the repo:
 
 ```bash
-git clone hhttps://github.com/aBadMan91/curly-goggles.git
+git clone https://github.com/aBadMan91/curly-goggles.git
 ```
 
 ## Contributing
