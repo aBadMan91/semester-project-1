@@ -1,6 +1,6 @@
 # Semester Project | Year 1 | 2022
 
-![image](https://raw.githubusercontent.com/aBadMan91/curly-goggles/main/images/CSMHomeScreenshotReadme.jpg?token=GHSAT0AAAAAACCN2QHE4C6QMHY2GC2XRYVOZDXIWSA)
+![image](https://raw.githubusercontent.com/aBadMan91/curly-goggles/main/images/CSMHomeScreenshotReadme.jpg?token=GHSAT0AAAAAACCN2QHESQMJW3AYXUJD6R5MZDXMBTA)
 
 The semester project I worked on at Noroff.
 
