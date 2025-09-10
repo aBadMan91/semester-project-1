@@ -1,6 +1,6 @@
 # Semester Project | Year 1 | 2022
 
-![image](https://raw.githubusercontent.com/aBadMan91/curly-goggles/main/images/CSMHomeScreenshotReadme.jpg?token=GHSAT0AAAAAACCN2QHESQMJW3AYXUJD6R5MZDXMBTA)
+![image](https://raw.githubusercontent.com/aBadMan91/semester-project-1/main/images/CSMHomeScreenshotReadme.jpg?token=GHSAT0AAAAAACCN2QHESQMJW3AYXUJD6R5MZDXMBTA)
 
 The semester project I worked on at Noroff.
 
@@ -30,7 +30,7 @@ Link to my Museum website.
 - Clone the repo:
 
 ```bash
-git clone https://github.com/aBadMan91/curly-goggles.git
+git clone https://github.com/aBadMan91/semester-project-1.git
 ```
 
 ## Contributing
