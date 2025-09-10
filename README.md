@@ -16,7 +16,7 @@ This website was developed before we started using JavaScript, so this website i
 
 Link to my Museum website.
 
-- [Community Science Museum](https://incomparable-beijinho-8ceaea.netlify.app/)
+- [Community Science Museum](https://csm-aleksnord.netlify.app/)
 
 ## Built With
 
